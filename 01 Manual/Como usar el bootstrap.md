@@ -13,16 +13,16 @@ cd C:\Users\avyev\Desktop\IA-LOCAL\bootstrap
 
 Primero muestra el **Dashboard** automaticamente (estado de Docker, n8n, modelos de Ollama y ultimo backup), y despues entra al menu principal:
 
-| Opcion | Modulo         | Que hace                                                            |
-| ------ | -------------- | ------------------------------------------------------------------- |
-| 0      | Dashboard      | Ver el estado operativo de nuevo                                    |
-| 1      | Doctor         | Comprobar que las herramientas necesarias estan instaladas          |
-| 2      | Docker Manager | up / down / restart / status / logs de los contenedores             |
-| 3      | N8n Manager    | Exportar/importar workflows, backup del volumen de n8n, abrir la UI |
-| 4      | Ollama Manager | Ver, descargar, eliminar y probar modelos de IA local               |
-| 5      | Backup Manager | Backup completo del proyecto con rotacion automatica                |
-| 6      | Update Manager | Actualizar la imagen de n8n y los modelos de Ollama                 |
-| 9      | Salir          | Cierra el bootstrap                                                 |
+| Opcion | Modulo | Que hace |
+|---|---|---|
+| 0 | Dashboard | Ver el estado operativo de nuevo |
+| 1 | Doctor | Comprobar que las herramientas necesarias estan instaladas |
+| 2 | Docker Manager | up / down / restart / status / logs de los contenedores |
+| 3 | N8n Manager | Exportar/importar workflows, backup del volumen de n8n, abrir la UI |
+| 4 | Ollama Manager | Ver, descargar, eliminar y probar modelos de IA local |
+| 5 | Backup Manager | Backup completo del proyecto con rotacion automatica |
+| 6 | Update Manager | Actualizar la imagen de n8n y los modelos de Ollama |
+| 9 | Salir | Cierra el bootstrap |
 
 ## Nota sobre archivos descargados
 

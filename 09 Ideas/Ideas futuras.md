@@ -11,7 +11,7 @@ Backlog de mejoras que han ido surgiendo durante el desarrollo, sin comprometers
 - [ ] **Automatizar backups periodicos**: programar `Invoke-ProjectBackup` + `Invoke-BackupRotation` con el Programador de tareas de Windows, en vez de ejecutarlo a mano.
 - [ ] **Dashboard con mas detalle**: anadir uso de RAM/CPU actual, no solo estado on/off.
 - [ ] **API propia** y/o **interfaz web**: mencionado en el brief original (seccion 13) como posible ampliacion futura sin rediseñar la arquitectura base.
-- [ ] Poblar el resto del vault con notas de uso real conforme se vayan creando mas workflows y prompts.
+- [ ] **Procesamiento de imagenes en el bot de Telegram**: requiere un modelo de vision en Ollama (ej. llava, qwen2-vl), mas pesado que los modelos de solo texto actuales. Pospuesto por limitaciones de RAM (8 GB) mientras Docker + ngrok + modelo ya estan en uso simultaneo. Retomar si se mejora el hardware o se libera carga de otros servicios.
 
 ## Ver tambien
 

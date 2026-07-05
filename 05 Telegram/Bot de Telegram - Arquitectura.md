@@ -57,3 +57,20 @@ Se crea a mano en la UI de n8n (Credentials -> Add Credential -> Telegram API), 
 - [[Modelos instalados]]
 - [[Gestion de workflows de n8n]]
 - [[Docker Compose - n8n]]
+
+## Ampliacion: comandos /buscar y /enviar (acceso a archivos)
+
+El workflow `telegram-asistente-ia-local-v2.json` anade dos comandos ademas de la conversacion normal:
+
+- `/buscar <texto>`: busca archivos por nombre dentro de `knowledge/`, `docs/` y `projects/` (montadas como solo lectura en `/data/knowledge`, `/data/docs`, `/data/projects` dentro del contenedor).
+- `/enviar <ruta>`: envia un archivo concreto por Telegram (ej. `/enviar docs/PROGRESS.md`).
+
+### Seguridad: filtro de chat autorizado
+
+El primer nodo tras el trigger (`IF - Chat autorizado`) compara el chat ID del mensaje contra un valor fijo en el propio nodo. Si no coincide, el flujo simplemente termina sin responder - nadie mas que el chat autorizado puede usar el bot.
+
+**Como obtener tu chat ID**: escribir a `@userinfobot` en Telegram, o revisar la pestana "Executions" de n8n tras enviar un mensaje de prueba (el campo `message.chat.id` del Telegram Trigger).
+
+### Por que solo lectura (`:ro`)
+
+Las carpetas se montan de solo lectura a proposito: el bot puede leer y enviar archivos, pero no puede modificarlos ni borrarlos desde Telegram. Si en el futuro se quiere permitir escritura, hay que cambiar el `:ro` por `:rw` en `docker-compose.yml` de forma consciente.

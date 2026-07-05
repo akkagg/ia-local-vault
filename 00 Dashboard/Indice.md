@@ -26,6 +26,7 @@ Bootstrap completo (v1.0). Ver detalle tecnico en `docs/PROGRESS.md` (fuera del 
 
 - [[Arquitectura del proyecto]] (01 Manual)
 - [[Como usar el bootstrap]] (01 Manual)
+- [[Manual Tecnico - Indice]] (01 Manual) - manual tecnico completo, por capitulos
 - [[Docker Compose - n8n]] (02 Docker)
 - [[Gestion de workflows de n8n]] (03 n8n)
 - [[Modelos instalados]] (04 Ollama)
