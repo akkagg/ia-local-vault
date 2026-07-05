@@ -15,9 +15,11 @@ tags: [manual, indice]
 5. [[Manual - Cap 5 - IA local con Ollama]] ✅
 6. [[Manual - Cap 6 - El bot de Telegram]] ✅
 7. [[Manual - Cap 7 - Backups y actualizaciones]] ✅
-8. El vault de Obsidian como base de conocimiento — pendiente
-9. Sincronizacion del vault entre dispositivos — pendiente
-10. Glosario general — pendiente
+8. [[Manual - Cap 8 - El vault de Obsidian]] ✅
+9. [[Manual - Cap 9 - Sincronizacion del vault entre dispositivos]] ✅
+10. [[Manual - Cap 10 - Glosario general]] ✅
+
+**Manual completo.**
 
 ## Como leer este manual
 
