@@ -1,8 +1,0 @@
-# Cache y estado de sesion de Obsidian (no aporta valor sincronizado)
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-.obsidian/cache
-
-# Archivos temporales del sistema
-.DS_Store
-Thumbs.db
