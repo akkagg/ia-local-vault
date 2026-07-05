@@ -1,0 +1,1 @@
+This is a personal project which I have been working on for some time. Finally, I was able to test it and confirm its proper functioning. That's why I've prepared a manual to guide you during the implementation.
