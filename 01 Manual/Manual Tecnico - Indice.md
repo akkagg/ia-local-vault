@@ -13,8 +13,8 @@ tags: [manual, indice]
 3. [[Manual - Cap 3 - Docker desde cero]] ✅
 4. [[Manual - Cap 4 - Gestion de workflows de n8n]] ✅
 5. [[Manual - Cap 5 - IA local con Ollama]] ✅
-6. El bot de Telegram — pendiente
-7. Backups y actualizaciones — pendiente
+6. [[Manual - Cap 6 - El bot de Telegram]] ✅
+7. [[Manual - Cap 7 - Backups y actualizaciones]] ✅
 8. El vault de Obsidian como base de conocimiento — pendiente
 9. Sincronizacion del vault entre dispositivos — pendiente
 10. Glosario general — pendiente
