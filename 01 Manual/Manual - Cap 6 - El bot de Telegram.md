@@ -59,13 +59,6 @@ Apaga ngrok a proposito (Ctrl+C en su terminal) y envia un mensaje al bot. Obser
 
 El bot de Telegram depende de 4 servicios activos a la vez (Docker, n8n, ngrok, Ollama) conectados por un workflow que ademas filtra por chat autorizado antes de procesar nada. La mayoria de fallos son de infraestructura (algo no esta corriendo o no puede alcanzar a otra pieza), no de logica del workflow en si.
 
-## Checklist del capitulo
-
-- [ ] Puedo dibujar de memoria el camino completo de un mensaje, con las 4 piezas
-- [ ] Se por que hace falta `host.docker.internal` en vez de `localhost`
-- [ ] Se por que Ollama necesita `OLLAMA_HOST=0.0.0.0` para esto
-- [ ] Se diagnosticar "el bot no responde" empezando por el Dashboard, no por el workflow
-
 ## Glosario del capitulo
 
 - **Webhook**: URL que un servicio externo (Telegram) llama automaticamente cuando ocurre un evento (un mensaje nuevo), en vez de que tu sistema tenga que preguntar constantemente si hay algo nuevo.
