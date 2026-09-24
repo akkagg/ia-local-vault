@@ -2,12 +2,6 @@
 tags: [ollama, ia-local, hardware]
 ---
 
-# Modelos instalados (Ollama)
-
-## Hardware objetivo
-
-Intel i5, 8 GB RAM. Regla de oro: **no correr varios modelos a la vez**, y evitar tener Docker + un modelo cargado + ngrok simultaneamente en tareas exigentes (puede saturar la maquina).
-
 ## Modelos recomendados (ligeros)
 
 | Modelo | Uso |
