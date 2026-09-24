@@ -52,13 +52,6 @@ Exporta el workflow que ya tengas funcionando, abre el JSON resultante con un ed
 
 n8n tiene dos rutas de respaldo con proposito distinto: exportar workflows (ligero, versionable, sin secretos) y backup completo (pesado, con secretos, el unico que realmente restaura todo). El N8n Manager del bootstrap automatiza ambas.
 
-## Checklist del capitulo
-
-- [ ] Se la diferencia entre exportar workflows y hacer un backup completo
-- [ ] Se que tras importar un workflow hay que reasignar las credenciales a mano
-- [ ] Reconozco el error de "workflow_entity.id" y su causa
-- [ ] Se que hacer si un nodo importado da "Unrecognized node type"
-
 ## Glosario del capitulo
 
 - **Credencial (n8n)**: datos de acceso a un servicio externo (ej. token de Telegram), guardados cifrados dentro de la base de datos de n8n, referenciados por nodo pero no incluidos en la exportacion de solo-workflows.
