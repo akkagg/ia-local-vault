@@ -4,12 +4,9 @@ tags: [manual, bootstrap]
 
 # Como usar el bootstrap
 
-El punto de entrada unico es `bootstrap/install.ps1`. Al ejecutarlo:
+El punto de entrada unico es `bootstrap/install.ps1`. 
+Al ejecutarlo:
 
-```powershell
-cd C:\Users\avyev\Desktop\IA-LOCAL\bootstrap
-.\install.ps1
-```
 
 Primero muestra el **Dashboard** automaticamente (estado de Docker, n8n, modelos de Ollama y ultimo backup), y despues entra al menu principal:
 
