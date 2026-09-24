@@ -91,13 +91,6 @@ Sin mirar el codigo, dibuja de memoria el diagrama de este capitulo con tus prop
 
 La arquitectura de IA-LOCAL se apoya en cuatro principios (no instalar en Windows directamente, automatizar, documentar, modularizar) que se traducen en decisiones concretas: Docker para aislar servicios, un modulo `Common` compartido para evitar duplicacion, y una estructura de carpetas donde cada una tiene un unico proposito.
 
-## Checklist del capitulo
-
-- [ ] Entiendo por que Docker aisla los servicios en vez de instalarlos en Windows
-- [ ] Se para que sirve el modulo `Common` y por que evita duplicacion
-- [ ] Se por que los scripts `.ps1` deben ser ASCII puro
-- [ ] Se que hacer si un `.ps1` descargado no se ejecuta (`Unblock-File`)
-
 ## Glosario del capitulo
 
 - **Modulo (PowerShell)**: conjunto de funciones relacionadas, empaquetado en un `.psm1` con su manifiesto `.psd1`, que se puede importar en otros scripts.
