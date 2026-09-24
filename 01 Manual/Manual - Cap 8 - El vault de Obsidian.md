@@ -66,13 +66,6 @@ Abre la vista de grafo de Obsidian (icono en la barra lateral) y localiza visual
 
 El vault sigue el patron MOC: indices que enlazan a notas especificas, y notas especificas que se enlazan entre si por tema. Cuanto mas consistente sea el uso de wikilinks, mas util se vuelve la vista de grafo como mapa real del conocimiento del proyecto.
 
-## Checklist del capitulo
-
-- [ ] Se que es un MOC y donde estan los dos MOC principales del vault
-- [ ] Anado wikilinks "Ver tambien" en las notas nuevas que creo
-- [ ] Se por que se mantuvo la errata en el nombre de una carpeta
-- [ ] He revisado la vista de grafo al menos una vez
-
 ## Glosario del capitulo
 
 - **MOC (Map of Content)**: nota que actua como indice tematico, enlazando a otras notas relacionadas sin desarrollar el contenido ella misma.
