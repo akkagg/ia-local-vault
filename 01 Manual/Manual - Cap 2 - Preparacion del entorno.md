@@ -50,13 +50,6 @@ Ejecuta `install.ps1`, entra en Doctor, y sin mirar el codigo, explica que difer
 
 `install.ps1` es el unico punto de entrada del proyecto. Importa `Common` y todos los modulos, muestra el Dashboard automaticamente al arrancar, y desde ahi se accede al menu principal que conecta con Doctor y el resto de gestores.
 
-## Checklist del capitulo
-
-- [ ] Se ejecutar `install.ps1` y entender que hace el Dashboard automatico al arrancar
-- [ ] Se para que sirve Doctor y que comprueba exactamente
-- [ ] Se que hacer si un modulo da error de "no se encontro archivo de modulo valido"
-- [ ] Se que reiniciar la terminal soluciona la mayoria de problemas de PATH tras instalar algo nuevo
-
 ## Glosario del capitulo
 
 - **PATH**: lista de carpetas donde el sistema operativo busca ejecutables cuando escribes un comando. Si un programa no esta en el PATH, hay que escribir su ruta completa o el comando no se reconoce.
