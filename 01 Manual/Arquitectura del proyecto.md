@@ -28,9 +28,6 @@ IA-LOCAL/
 
 Una responsabilidad por carpeta y por modulo. Ningun modulo del bootstrap importa archivos internos de otro: la comunicacion pasa por funciones exportadas (ver [[Convenciones de Git]] para el flujo de trabajo asociado).
 
-## Leccion aprendida importante
-
-Los scripts `.ps1` / `.psm1` / `.psd1` deben ser **ASCII puro** (sin tildes, enes, guiones largos). PowerShell 5.1 en Windows los lee con la codificacion ANSI del sistema si no llevan BOM UTF-8, y un caracter especial corrompe el parseo mas adelante en el archivo. Este archivo de Obsidian SI puede llevar tildes con normalidad - el problema es especifico de los scripts.
 
 ## Ver tambien
 
