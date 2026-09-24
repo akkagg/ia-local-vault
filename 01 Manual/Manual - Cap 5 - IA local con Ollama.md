@@ -56,13 +56,6 @@ Descarga un segundo modelo ligero (por ejemplo `gemma2:2b` si ya tienes `qwen2.5
 
 Ollama corre nativo en Windows (no en Docker), lo que exige configurar `OLLAMA_HOST=0.0.0.0` para que contenedores como n8n puedan alcanzarlo via `host.docker.internal`. La eleccion de modelo es un compromiso directo entre calidad de respuesta y consumo de RAM en un equipo de 8 GB.
 
-## Checklist del capitulo
-
-- [ ] Se por que Ollama debe escuchar en `0.0.0.0` y no solo en `127.0.0.1`
-- [ ] Se usar `ollama stop` para liberar RAM sin desinstalar el modelo
-- [ ] Conozco al menos dos modelos ligeros alternativos a `qwen2.5:3b`
-- [ ] Se donde revisar de un vistazo que modelos tengo instalados (Dashboard u Ollama Manager)
-
 ## Glosario del capitulo
 
 - **host.docker.internal**: nombre de dominio especial que Docker Desktop expone dentro de los contenedores para alcanzar servicios que corren en el host (Windows), no dentro de Docker.
