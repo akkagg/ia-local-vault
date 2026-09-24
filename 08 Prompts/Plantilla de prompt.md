@@ -18,6 +18,4 @@ Restricciones: [longitud maxima, tono, que evitar]
 
 Los modelos como `qwen2.5:3b`, `phi3:mini` o `gemma2:2b` responden mejor con instrucciones **cortas y directas** que con prompts largos y ambiguos. Evitar pedir varias tareas encadenadas en un solo prompt.
 
-## Prompts guardados
 
-(Anadir aqui los prompts que funcionen bien, con una breve nota de para que sirven)
