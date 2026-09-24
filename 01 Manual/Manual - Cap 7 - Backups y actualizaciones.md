@@ -55,13 +55,6 @@ Ejecuta un backup completo del proyecto (Backup Manager, opcion 1), y despues re
 
 El Backup Manager protege el proyecto entero (incluyendo secretos, por eso el cuidado al compartirlo) con rotacion automatica; el Update Manager mantiene la imagen de n8n y los modelos de Ollama al dia, con la app de Ollama en si como unica pieza que se actualiza a mano.
 
-## Checklist del capitulo
-
-- [ ] Se la diferencia entre backup de n8n (capitulo 4) y backup del proyecto entero (este capitulo)
-- [ ] Se por que el backup completo incluye el `.env` y por que hay que tener cuidado con ese archivo
-- [ ] Se que actualizar n8n implica una breve caida del servicio, y no me sorprende
-- [ ] Se que la app de Ollama se actualiza a mano, no por script
-
 ## Glosario del capitulo
 
 - **Rotacion de backups**: eliminar automaticamente las copias mas antiguas cuando se supera un numero maximo, para no llenar el disco indefinidamente.
