@@ -51,13 +51,6 @@ Edita una nota cualquiera desde el movil, haz push, y luego confirma en `github.
 
 La sincronizacion se resuelve con un repositorio Git privado separado del proyecto principal, autenticado por token, con el flujo `push` desde el PC y `pull` (manual o automatico) desde el movil. La mayoria de problemas fueron de autenticacion (token) o de habitos de uso de la app en iOS, no de la configuracion de Git en si.
 
-## Checklist del capitulo
-
-- [ ] Se por que el vault usa un repo Git separado del proyecto principal
-- [ ] Tengo mi Personal Access Token guardado en un sitio seguro, no solo en el plugin
-- [ ] Se comprobar directamente en GitHub si un push llego, antes de asumir que el pull esta mal
-- [ ] En iOS, evito forzar el cierre de la app justo despues de tocar la configuracion del plugin
-
 ## Glosario del capitulo
 
 - **Personal Access Token (PAT)**: credencial que GitHub genera para autenticar operaciones de Git por HTTPS, en sustitucion de la contrasena de la cuenta.
