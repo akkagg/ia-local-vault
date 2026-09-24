@@ -57,13 +57,6 @@ Para de golpe: n8n con `docker compose down`. Antes de volver a levantarlo, comp
 
 n8n corre en un contenedor Docker gestionado por Docker Compose, con su configuracion sensible en `.env` (fuera de Git) y sus datos persistentes en un volumen del host. El Docker Manager del bootstrap (capitulo 2) automatiza `up`/`down`/`status`/`logs` sobre esta misma base.
 
-## Checklist del capitulo
-
-- [ ] Entiendo la diferencia entre `docker-compose.yml` (forma) y `.env` (valores)
-- [ ] Se por que el error de "docker API" significa que Docker Desktop no esta abierto
-- [ ] Entiendo que un `docker compose down` no borra los datos del volumen
-- [ ] Se donde vive fisicamente el volumen de datos de n8n en mi disco
-
 ## Glosario del capitulo
 
 - **Docker Compose**: herramienta que describe y orquesta uno o varios contenedores a partir de un archivo declarativo (`docker-compose.yml`).
